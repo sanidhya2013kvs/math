@@ -3,7 +3,7 @@ import cv2
 from cvzone.HandTrackingModule import HandDetector
 import numpy as np
 import google.generativeai as genai
-from PIL import Image
+#from PIL import Image
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer
 import av
@@ -43,11 +43,7 @@ def draw(info,prev_pos,canvas):
 
     return current_pos, canvas
 
-def sendToAI(model,canvas,fingers):
-    if fingers == [1,1,1,1,0]:
-        pil_image = Image.fromarray(canvas)
-        response = model.generate_content(["Solve this math problem", pil_image])
-        return response.text
+
 prev_pos= None
 canvas=None
 image_combined = None
