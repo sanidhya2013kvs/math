@@ -1,0 +1,8 @@
+PIL
+streamlit
+
+google-generativeai
+mediapipe==0.10.14
+cvzone==1.6.1
+streamlit_webrtc
+av
