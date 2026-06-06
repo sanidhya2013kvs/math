@@ -1,0 +1,1 @@
+This file represent agentic vqa based problem solver where any gesture can be lock and triger a particular problem set ie wrt any field or subject and we can sketch or fraw on ctx canava and send to ai with specfic prompts and gives back responce
